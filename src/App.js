@@ -14,10 +14,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-
+        {/* Link, links to the specified route/component to go to */}
         <Link to="/">
         <p>Route 1</p>
         </Link>
@@ -30,6 +27,7 @@ class App extends Component {
           <p>Route 3</p>
         </Link>
 
+        {/* routes variable prints the return from the specified functional component page*/}
         { routes }
       </div>
     );
